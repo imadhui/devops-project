@@ -19,7 +19,7 @@ function style_wrapper (text) {
     return "<center style=\"font-size: 80px\">" + "<h1>" + text + "</h1>"  + "</center>"
 }
 
-app.get('/', (req, res) => res.send(style_wrapper("Hello World!")));
+app.get('/', (req, res) => res.send(style_wrapper("Hello DevOps!")));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
